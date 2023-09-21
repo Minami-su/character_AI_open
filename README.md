@@ -4,3 +4,6 @@
 
 存在问题：
 1.基于模型自身生成，所以roleplay存在模型本身价值观融入情况，导致roleplay不够真实，不够准确。
+
+
+https://huggingface.co/datasets/Minami-su/roleplay_multiturn_chat_1k_zh_v0.1

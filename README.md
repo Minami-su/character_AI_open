@@ -1,5 +1,5 @@
 # character_AI_open
-开源版character ai
+开源版characterai&characterGLM
 # roleplay_AI
 介绍
 基于self-instruct生成的多轮对话roleplay数据，约1k条不同的人格数据和对话

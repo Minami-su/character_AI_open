@@ -3,6 +3,7 @@
 # roleplay_AI
 介绍
 基于self-instruct生成的多轮对话roleplay数据，约1k条不同的人格数据和对话
+
 模型基于baichuan13b训练的4bit量化版
 https://huggingface.co/Minami-su/roleplay_baichuan-Chat_4bit
 

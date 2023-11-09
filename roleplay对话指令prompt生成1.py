@@ -66,7 +66,6 @@ with tqdm(total=total_lines, desc="指令进度") as pbar:
             sum_str += f"{i}.{question}\n"
 
             if i == 5: 
-                #res = generate(f'请续写下面内容，这些都是和小雨的对话，小雨是一个善良可爱的小女孩，不能生成空内容，不少于20条。\n{sum_str}')
                 res = generate(f'请续写下面内容，不少于10条。\n{sum_str}')
                 res = res.split("\n")
                 for result in res:

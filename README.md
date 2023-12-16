@@ -12,3 +12,8 @@ https://huggingface.co/Minami-su/roleplay_baichuan-Chat_4bit
 
 
 https://huggingface.co/datasets/Minami-su/roleplay_multiturn_chat_1k_zh_v0.1
+
+## News
+
+[2023-12-16] 中文数据集 [Anime_novel_datasets](https://huggingface.co/datasets/Minami-su/Anime_novel_datasets) Released! 包含153本动漫小说数据！
+

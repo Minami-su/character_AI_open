@@ -43,8 +43,8 @@ def generate(prompt):
 import random
 import json
 from tqdm import tqdm
-filename0 = "2cl去重4.json"
-filename2 = "sum_novel指令2.json"
+filename0 = "seed_prompt.json"
+filename2 = "roleplay_data.json"
 translations = []
 total_lines = 10000
 sum_str = ""

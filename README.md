@@ -60,3 +60,13 @@ Please note that the above content has been revised to English while maintaining
 [2023-12-04] qwen_7b_roleplay_4bit [Yi_34B_Chat_2bit](https://huggingface.co/Minami-su/Yi_34B_Chat_2bit) Released! You can run it on 11G mem GPU,quantize base QuIP# method, a weights-only quantization method that is able to achieve near fp16 performance using only 2 bits per weight.
 
 [2023-11-30] qwen_7b_roleplay_4bit [qwen_7b_roleplay_4bit](https://huggingface.co/Minami-su/qwen_7b_chat_roleplay_4bit) Released! 
+
+## 引用 info
+```
+@misc{selfinstruct,
+  title={Self-Instruct: Aligning Language Model with Self Generated Instructions},
+  author={Wang, Yizhong and Kordi, Yeganeh and Mishra, Swaroop and Liu, Alisa and Smith, Noah A. and Khashabi, Daniel and Hajishirzi, Hannaneh},
+  journal={arXiv preprint arXiv:2212.10560},
+  year={2022}
+}
+```

@@ -20,7 +20,7 @@ model = AutoGPTQForCausalLM.from_quantized(ckpt, device_map="auto",trust_remote_
 #                                                  bnb_4bit_quant_type='nf4'
 #                                              ),
 #                                              device_map="auto")
-with open('filter.txt', 'r', encoding='utf-8') as f:
+with open('filter1.txt', 'r', encoding='utf-8') as f:
     sensitive_words = [line.strip() for line in f.readlines()]
 def generate(prompt):
     print("1",prompt,"2")
@@ -42,7 +42,7 @@ import random
 import json
 from tqdm import tqdm
 
-filename = "3.json"
+filename = "seed_prompt.json"
 #filename = "xiaoyu_person_指令2.json"
 translations = []
 total_lines = 100000

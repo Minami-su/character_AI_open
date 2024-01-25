@@ -5,7 +5,7 @@
 基于self-instruct生成的多轮对话roleplay数据，约1k条不同的人格数据和对话
 
 ## Getting Started
-1.首先生产roleplay的prompt人设设定，这里我上传了seed_prompt.json然后运行代码即可继续生产人设prompt
+1.首先生产roleplay的prompt人设设定，这里我上传了seed_prompt.json然后运行代码即可继续生产人设prompt,seed_prompt.json的指令你也可以自己写大概10条就够启动了
 ```bash
 python roleplay_prompt_generate.py
 ```
@@ -32,7 +32,7 @@ Open source version of characterai&characterGLM
 Based on self-instructed generated multi-turn dialogue roleplay data, approximately 1k different personality data and conversations.
 
 ## Getting Started
-1. First, generate the roleplay prompt character settings. I have uploaded seed_prompt.json here, run the code to continue generating character prompts.
+1. First, generate the roleplay prompt character settings. I have uploaded seed_prompt.json here, run the code to continue generating character prompts.You can also write approximately 10 instructions for seed_prompt.json yourself, and that should be enough to get started.
 ```bash
 python roleplay_prompt_generate.py
 ```

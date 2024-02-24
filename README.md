@@ -1,11 +1,12 @@
 ## News
 [2024-02-24] llamafy_qwen_v2.py [llamafy_qwen_v2](https://github.com/Minami-su/character_AI_open/blob/main/llamafy_qwen_v2.py) Released! The original codebase can be found at: 
-
 (https://github.com/hiyouga/LLaMA-Factory/blob/main/tests/llamafy_qwen.py). I have made modifications to make it compatible with qwen1.5.
 
-Qwen1.5-0.5B-Chat_llamafy [Qwen1.5-0.5B-Chat_llamafy](https://huggingface.co/Minami-su/Qwen1.5-0.5B-Chat_llamafy) Released! 
+[2024-02-24] Qwen1.5-0.5B-Chat_llamafy [Qwen1.5-0.5B-Chat_llamafy](https://huggingface.co/Minami-su/Qwen1.5-0.5B-Chat_llamafy) Released! 
 
-Qwen1.5-7B-Chat_llamafy [Qwen1.5-7B-Chat_llamafy](https://huggingface.co/Minami-su/Qwen1.5-7B-Chat_llamafy) Released! 
+[2024-02-24] Qwen1.5-7B-Chat_llamafy [Qwen1.5-7B-Chat_llamafy](https://huggingface.co/Minami-su/Qwen1.5-7B-Chat_llamafy) Released! 
+
+
 
 
 [2023-12-16] 中文数据集 [Anime_novel_datasets](https://huggingface.co/datasets/Minami-su/Anime_novel_datasets) Released! 包含153本动漫小说数据！

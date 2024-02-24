@@ -43,7 +43,14 @@ def save_weight(input_dir: str, output_dir: str, shard_size: str, save_safetenso
     for key, value in tqdm(qwen_state_dict.items(), desc="Convert format"):
         if torch_dtype is None:
             torch_dtype = value.dtype
-        llama2_state_dict[key] = value
+        if "self_attn.o_proj" in key:
+            #print(key)
+            llama2_state_dict[key] = value
+            llama2_state_dict[key.replace(".weight",".bias")] = torch.zeros_like(
+                    value[:, 0]
+                ).squeeze()
+        else:
+            llama2_state_dict[key] = value
 
     weights_name = SAFE_WEIGHTS_NAME if save_safetensors else WEIGHTS_NAME
     shards, index = shard_checkpoint(llama2_state_dict, max_shard_size=shard_size, weights_name=weights_name)

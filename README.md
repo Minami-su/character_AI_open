@@ -1,3 +1,13 @@
+## News
+[2024-02-24] llamafy_qwen_v2.py [llamafy_qwen_v2](https://github.com/Minami-su/character_AI_open/blob/main/llamafy_qwen_v2.py) Released! The original codebase can be found at: (https://github.com/hiyouga/LLaMA-Factory/blob/main/tests/llamafy_qwen.py). I have made modifications to make it compatible with qwen1.5.
+Qwen1.5-0.5B-Chat_llamafy [Qwen1.5-0.5B-Chat_llamafy](https://huggingface.co/Minami-su/Qwen1.5-0.5B-Chat_llamafy) Released! 
+
+[2023-12-16] 中文数据集 [Anime_novel_datasets](https://huggingface.co/datasets/Minami-su/Anime_novel_datasets) Released! 包含153本动漫小说数据！
+
+[2023-12-04] qwen_7b_roleplay_4bit [Yi_34B_Chat_2bit](https://huggingface.co/Minami-su/Yi_34B_Chat_2bit) Released! You can run it on 11G mem GPU,quantize base QuIP# method, a weights-only quantization method that is able to achieve near fp16 performance using only 2 bits per weight.
+
+[2023-11-30] qwen_7b_roleplay_4bit [qwen_7b_roleplay_4bit](https://huggingface.co/Minami-su/qwen_7b_chat_roleplay_4bit) Released! 
+
 # character_AI_open
 开源版characterai&characterGLM
 
@@ -53,13 +63,7 @@ The model is based on a 4-bit quantized version trained on baichuan13b.
 
 Please note that the above content has been revised to English while maintaining the original format.
 
-## News
 
-[2023-12-16] 中文数据集 [Anime_novel_datasets](https://huggingface.co/datasets/Minami-su/Anime_novel_datasets) Released! 包含153本动漫小说数据！
-
-[2023-12-04] qwen_7b_roleplay_4bit [Yi_34B_Chat_2bit](https://huggingface.co/Minami-su/Yi_34B_Chat_2bit) Released! You can run it on 11G mem GPU,quantize base QuIP# method, a weights-only quantization method that is able to achieve near fp16 performance using only 2 bits per weight.
-
-[2023-11-30] qwen_7b_roleplay_4bit [qwen_7b_roleplay_4bit](https://huggingface.co/Minami-su/qwen_7b_chat_roleplay_4bit) Released! 
 
 ## 引用 info
 ```

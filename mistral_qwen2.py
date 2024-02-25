@@ -102,7 +102,8 @@ def save_config(input_dir: str, output_dir: str, torch_dtype: str):
     mistral_config_dict["torch_dtype"] = torch_dtype
     mistral_config_dict["transformers_version"] = "4.34.0.dev0"
     mistral_config_dict["use_cache"] = True
-    mistral_config_dict["use_sliding_window"] = qwen_config_dict["use_sliding_window"]
+    #mistral_config_dict["use_sliding_window"] = qwen_config_dict["use_sliding_window"]
+    mistral_config_dict["use_sliding_window"] = True
     mistral_config_dict["vocab_size"] = qwen_config_dict["vocab_size"]
 
 

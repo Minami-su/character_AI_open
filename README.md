@@ -1,4 +1,11 @@
 ## News
+[2024-02-25] llamafy_qwen_v2.py [mistral_qwen2](https://github.com/Minami-su/character_AI_open/blob/main/mistral_qwen2.py) Released! The original codebase can be found at: 
+(https://github.com/hiyouga/LLaMA-Factory/blob/main/tests/llamafy_qwen.py). I have made modifications to make it compatible with qwen1.5.
+
+[2024-02-25] Qwen1.5-7B-Chat_mistral [Qwen1.5-7B-Chat_mistral](https://huggingface.co/Minami-su/Qwen1.5-7B-Chat_mistral)Released! 
+
+[2024-02-25] Qwen1.5-0.5B-Chat_mistral [Qwen1.5-0.5B-Chat_mistral](https://huggingface.co/Minami-su/Qwen1.5-0.5B-Chat_mistral) Released! 
+
 [2024-02-24] llamafy_qwen_v2.py [llamafy_qwen_v2](https://github.com/Minami-su/character_AI_open/blob/main/llamafy_qwen_v2.py) Released! The original codebase can be found at: 
 (https://github.com/hiyouga/LLaMA-Factory/blob/main/tests/llamafy_qwen.py). I have made modifications to make it compatible with qwen1.5.
 

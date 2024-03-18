@@ -1,4 +1,5 @@
 ## News
+[2024-03-18] 𝒀𝒐𝒖𝒕𝒉, 𝒍𝒐𝒗𝒆, 𝒑𝒉𝒊𝒍𝒐𝒔𝒐𝒑𝒉𝒚, 𝒕𝒉𝒂𝒕 𝒔𝒖𝒎𝒎𝒆𝒓, 𝒇𝒊𝒓𝒆𝒘𝒐𝒓𝒌𝒔. [IA_14B](https://huggingface.co/Minami-su/IA_14B)
 [2024-02-25] llamafy_qwen_v2.py [mistral_qwen2](https://github.com/Minami-su/character_AI_open/blob/main/mistral_qwen2.py) Released! The original codebase can be found at: 
 (https://github.com/hiyouga/LLaMA-Factory/blob/main/tests/llamafy_qwen.py). I have made modifications to make it compatible with qwen1.5.
 

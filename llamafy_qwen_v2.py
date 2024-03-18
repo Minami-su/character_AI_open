@@ -84,7 +84,7 @@ def save_config(input_dir: str, output_dir: str, torch_dtype: str):
     llama2_config_dict["hidden_size"] = qwen_config_dict["hidden_size"]
     llama2_config_dict["initializer_range"] = qwen_config_dict["initializer_range"]
     llama2_config_dict["intermediate_size"] = qwen_config_dict["intermediate_size"]
-   ＃llama2_config_dict["max_position_embeddings"] = qwen_config_dict["max_position_embeddings"]
+   #llama2_config_dict["max_position_embeddings"] = qwen_config_dict["max_position_embeddings"]
     llama2_config_dict["max_position_embeddings"] = 4096
     llama2_config_dict["max_window_layers"] = qwen_config_dict["max_window_layers"]
     llama2_config_dict["model_type"] = "llama"

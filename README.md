@@ -1,7 +1,8 @@
-![image/png](IA.png)
+
 
 ## News
 [2024-04-08]Releases the instruction generation code and data for the IA role.[IA_character_sft](https://huggingface.co/datasets/Minami-su/IA_character_sft)
+![image/png](IA_character/result.png)
 
 [2024-03-18] 𝒀𝒐𝒖𝒕𝒉, 𝒍𝒐𝒗𝒆, 𝒑𝒉𝒊𝒍𝒐𝒔𝒐𝒑𝒉𝒚, 𝒕𝒉𝒂𝒕 𝒔𝒖𝒎𝒎𝒆𝒓, 𝒇𝒊𝒓𝒆𝒘𝒐𝒓𝒌𝒔. From new technology[IA_14B](https://huggingface.co/Minami-su/IA_14B)
 

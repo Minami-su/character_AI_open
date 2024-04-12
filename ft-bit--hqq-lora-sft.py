@@ -1,5 +1,5 @@
 """
-You need use this peft branch:https://github.com/fahadh4ilyas/peft/tree/hqq-lora
+
 command
 python ft-bit--hqq-lora-sft.py \
     --base_model 'Qwen1.5-32B-Chat_llamafy' \

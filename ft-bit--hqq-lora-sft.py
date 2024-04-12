@@ -267,7 +267,10 @@ def train(
 
 # 	quant_config = BaseQuantizeConfig(nbits=1, group_size=8, quant_scale=False, quant_zero=False)
 # 	model.quantize_model(quant_config=quant_config)
-	model = AutoHQQHFModel.from_quantized(base_model).half().cuda()
+	#model = AutoHQQHFModel.from_quantized(base_model).half().cuda()
+	device = 'cuda' # your cude device
+	compute_dtype = torch.float16 # dtype: float16, bfloat16
+	model = AutoHQQHFModel.from_quantized(base_model, device=device, compute_dtype=compute_dtype)
 	# Config Lora
 	# transformers trainer will try to read hf_quantizer.is_trainable
 	# so we hack it by adding a fake hf_quantizer

@@ -1,5 +1,4 @@
 """
-
 command
 python ft-bit--hqq-lora-sft.py \
     --base_model 'Qwen1.5-32B-Chat_llamafy' \
@@ -55,54 +54,6 @@ from peft.tuners.lora import (
 	LoraModel,
 	QuantLinear as PeftQuantLinear
 )
-
-def create_new_module(lora_config, adapter_name, target, **kwargs):
-	new_module = None
-	if isinstance(target, BaseTunerLayer):
-		target_base_layer = target.get_base_layer()
-	else:
-		target_base_layer = target
-
-	if isinstance(target_base_layer, HQQLinear):
-		new_module = PeftQuantLinear(target, adapter_name, lora_config=lora_config, **kwargs)
-		# Quantization settings
-
-		target.weight = target_base_layer.W_q
-		if target_base_layer.bias is not None:
-			target.bias = target_base_layer.bias.to(device='cuda', dtype=torch.float16)
-
-	return new_module
-
-LoraModel._create_new_module = staticmethod(create_new_module)
-def find_all_linear_names(model):
-	lora_module_names = set()
-	for name, module in model.named_modules():
-		#print(name, module)
-		if isinstance(module, HQQLinear):
-			names = name.split('.')
-			lora_module_names.add(names[-1])
-	return list(lora_module_names)
-
-# Train
-# from trl import SFTTrainer
-#Wrap model to avoid accelerate issues
-class WrappedModel(torch.nn.Module):
-	def __init__(self, model):
-		super().__init__()
-		self.model = model
-
-	def forward(self, *args, **kwargs):
-		return self.model.forward(*args, **kwargs)
-
-	def train(self):
-		self.model.train()
-
-	def eval(self):
-		self.model.eval()
-
-	def parameters(self):
-		return self.model.parameters()
-
 
 os.environ["WANDB_DISABLED"] = "true"
 

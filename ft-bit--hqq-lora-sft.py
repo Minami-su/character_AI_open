@@ -1,4 +1,5 @@
 """
+You need use this peft branch:https://github.com/fahadh4ilyas/peft/tree/hqq-lora
 command
 python ft-bit--hqq-lora-sft.py \
     --base_model 'Qwen1.5-32B-Chat_llamafy' \
@@ -54,7 +55,14 @@ from peft.tuners.lora import (
 	LoraModel,
 	QuantLinear as PeftQuantLinear
 )
-
+def find_all_linear_names(model):
+	lora_module_names = set()
+	for name, module in model.named_modules():
+		#print(name, module)
+		if isinstance(module, HQQLinear):
+			names = name.split('.')
+			lora_module_names.add(names[-1])
+	return list(lora_module_names)
 os.environ["WANDB_DISABLED"] = "true"
 
 

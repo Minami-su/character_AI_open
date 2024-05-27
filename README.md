@@ -1,7 +1,7 @@
 
 
 ## News
-[2024-04-11]Releases the hqq 1bit training code.[hqq 1bit training code](https://github.com/Minami-su/character_AI_open/blob/main/ft-bit--hqq-lora-sft.py)
+[2024-04-11]Releases the hqq 1bit training code.[hqq 1bit training code](https://github.com/Minami-su/character_AI_open/tree/main/hqq_1bit_Lora_ftuning)
 
 [2024-04-08]Releases the instruction generation code and data for the IA role.[IA_character_sft](https://huggingface.co/datasets/Minami-su/IA_character_sft)
 

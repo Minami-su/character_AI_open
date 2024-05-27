@@ -1,3 +1,20 @@
+"""
+command
+python ft-bit--hqq-lora-sft.py \
+    --base_model 'Qwen1.5-32B-Chat_llamafy' \
+    --data_path 'alpaca_sft_1k.json' \
+    --output_dir 'alpaca_sft_1k' \
+    --batch_size 1 \
+    --micro_batch_size 1 \
+    --num_epochs 1 \
+    --learning_rate 5e-6 \
+    --cutoff_len 768 \
+    --val_set_size 0 \
+    --lora_r 16 \
+    --lora_alpha 32 \
+    --lora_dropout 0.05
+    
+"""
 import os
 import sys
 import types

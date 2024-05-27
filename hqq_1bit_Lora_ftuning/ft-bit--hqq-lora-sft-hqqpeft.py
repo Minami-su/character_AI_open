@@ -3,8 +3,8 @@ You need use this peft branch:https://github.com/fahadh4ilyas/peft/tree/hqq-lora
 command
 python ft-bit--hqq-lora-sft.py \
     --base_model 'Qwen1.5-32B-Chat_llamafy' \
-    --data_path 'alpaca_dpo_1k.json' \
-    --output_dir 'alpaca_dpo_1k' \
+    --data_path 'alpaca_sft_1k.json' \
+    --output_dir 'alpaca_sft_1k' \
     --batch_size 1 \
     --micro_batch_size 1 \
     --num_epochs 1 \

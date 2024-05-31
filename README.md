@@ -1,6 +1,8 @@
 
 
 ## News
+[2024-05-31]Releases the evol_character(https://github.com/Bauhinia-AI/evol-character) unoffical code.[evol_character_unoffical](https://github.com/Minami-su/character_AI_open/tree/main/evol-character-unofficial)
+
 [2024-04-11]Releases the hqq 1bit training code.[hqq 1bit training code](https://github.com/Minami-su/character_AI_open/tree/main/hqq_1bit_Lora_ftuning)
 
 [2024-04-08]Releases the instruction generation code and data for the IA role.[IA_character_sft](https://huggingface.co/datasets/Minami-su/IA_character_sft)

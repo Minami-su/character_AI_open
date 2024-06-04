@@ -1,6 +1,10 @@
 
 
 ## News
+[2024-06-03]Releases the character-ai-open2.0 code.[character-ai-open2.0](https://github.com/Minami-su/character_AI_open/tree/main/character_AI_open2.0)
+
+[2024-06-03]Releases the character-ai-open2.0 datasets.[character-ai-open2.0](https://huggingface.co/datasets/Minami-su/character-ai-open2.0)
+
 [2024-05-31]Releases the evol_character(https://github.com/Bauhinia-AI/evol-character) unoffical code.[evol_character_unoffical](https://github.com/Minami-su/character_AI_open/tree/main/evol-character-unofficial)
 
 [2024-04-11]Releases the hqq 1bit training code.[hqq 1bit training code](https://github.com/Minami-su/character_AI_open/tree/main/hqq_1bit_Lora_ftuning)

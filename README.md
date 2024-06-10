@@ -1,6 +1,9 @@
 
 
 ## News
+[2024-06-06]Releases the toxic-sft-zh code and datasets.[toxic-Instruction](https://github.com/Minami-su/character_AI_open/tree/main/toxic-Instruction)
+[toxic-sft-zh](https://huggingface.co/datasets/Minami-su/toxic-sft-zh)
+
 [2024-06-03]Releases the character-ai-open2.0 code.[character-ai-open2.0](https://github.com/Minami-su/character_AI_open/tree/main/character_AI_open2.0)
 
 [2024-06-03]Releases the character-ai-open2.0 datasets.[character-ai-open2.0](https://huggingface.co/datasets/Minami-su/character-ai-open2.0)

@@ -97,7 +97,8 @@ The model is based on a 4-bit quantized version trained on baichuan13b.
 
 Please note that the above content has been revised to English while maintaining the original format.
 
-
+###
+[<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chicongliau&button_colour=40DCA5&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" width="200"/>](https://buymeacoffee.com/minami_su)
 
 ## 引用 info
 ```

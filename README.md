@@ -1,6 +1,9 @@
 
 
 ## News
+[2024-11-13]Added reshape code for the full Qwen 2.5 72B model,the 'intermediate_size': 29568 causes the model to fail in parallel multi-GPU deployment after quantization, so 128 dimensions were added to 'intermediate_size': 29696, making it consistent with the Qwen/Qwen2.5-72B-Instruct-AWQ dimensions.
+[Qwen2_72B_reshape](https://github.com/Minami-su/character_AI_open/tree/main/Qwen2_72B_reshape)
+
 [2024-06-06]Releases the toxic-sft-zh code and datasets.[toxic-Instruction](https://github.com/Minami-su/character_AI_open/tree/main/toxic-Instruction)
 [toxic-sft-zh](https://huggingface.co/datasets/Minami-su/toxic-sft-zh)
 

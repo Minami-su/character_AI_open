@@ -4,6 +4,7 @@
 [2025-01-08]A brand-new model, Amara-o1-7B-Qwen, has been released. Using a 7B-sized, it has surpassed the win rate of the LLaMA3.1-405B on AlpacaEval2.0.
 
 ![image](https://github.com/user-attachments/assets/269dd07e-e020-4e21-a87c-3e55e8723467)
+
 [Minami-su/Amara-o1-7B-Qwen](https://huggingface.co/Minami-su/Amara-o1-7B-Qwen)
 
 [2024-11-13]Added reshape code for the full Qwen 2.5 72B model,the 'intermediate_size': 29568 causes the model to fail in parallel multi-GPU deployment after quantization, so 128 dimensions were added to 'intermediate_size': 29696, making it consistent with the Qwen/Qwen2.5-72B-Instruct-AWQ dimensions.

@@ -1,6 +1,10 @@
-
-
 ## News
+[2025-01-09]A brand-new model, Amara-o2-7B-Qwen, iteration based on Amara-o1-7B-Qwen, has been released. Using a 7B-sized, it has surpassed the win rate of the GPT-4o-0513 on AlpacaEval2.0.
+
+![image](https://github.com/user-attachments/assets/1ce0e12b-8a01-45cd-be41-5b57f4cbd486)
+
+[Minami-su/Amara-o2-7B-Qwen](https://huggingface.co/Minami-su/Amara-o2-7B-Qwen)
+
 [2025-01-08]A brand-new model, Amara-o1-7B-Qwen, has been released. Using a 7B-sized, it has surpassed the win rate of the LLaMA3.1-405B on AlpacaEval2.0.
 
 ![image](https://github.com/user-attachments/assets/269dd07e-e020-4e21-a87c-3e55e8723467)
